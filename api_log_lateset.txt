@@ -1,0 +1,847 @@
+2024-07-03 16:01:49,696:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 16:01:49,696:INFO:[33mPress CTRL+C to quit[0m
+2024-07-03 16:01:49,700:INFO: * Restarting with stat
+2024-07-03 16:01:49,796:WARNING: * Debugger is active!
+2024-07-03 16:01:49,807:INFO: * Debugger PIN: 853-712-390
+2024-07-03 16:03:39,731:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'challenge': 'JW12jadk20jkYoyKn49hpG3LSWCyoEln06v9c5jY34NwopDYs3OG', 'type': 'url_verification'}
+2024-07-03 16:03:39,732:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 129
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 50.19.13.189
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720002819
+X-Slack-Signature: v0=7785685991afe14587724c46f7cc25903e4570dd828b6e70c8c010feb5b84fce
+
+
+2024-07-03 16:03:39,733:INFO:127.0.0.1 - - [03/Jul/2024 16:03:39] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:05:22,041:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'WAU5H0RC6', 'type': 'message', 'ts': '1720002919.691639', 'client_msg_id': '242eeb95-84dc-44f6-83d7-d35fc06de279', 'text': 'what is unp?', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': 'qm+Rm', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'what is unp?'}]}]}], 'channel': 'C06S2R3SD1N', 'event_ts': '1720002919.691639', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07ASL0KT9B', 'event_time': 1720002919, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDZTMlIzU0QxTiJ9'}
+2024-07-03 16:05:22,042:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 955
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.90.40.182
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720002921
+X-Slack-Signature: v0=655c13a195eba97065f4c45a287cf995d29b38669e055a2e9c306a861609beaf
+
+
+2024-07-03 16:05:22,042:INFO:127.0.0.1 - - [03/Jul/2024 16:05:22] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:05:41,531:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'WAU5H0RC6', 'type': 'message', 'ts': '1720002880.681159', 'client_msg_id': 'dd4dfd65-2f49-4728-9ff2-0deb6491f459', 'text': 'what is unp?', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': 'qm+Rm', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'what is unp?'}]}]}], 'channel': 'C06S2R3SD1N', 'event_ts': '1720002880.681159', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AVDSAD8T', 'event_time': 1720002880, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDZTMlIzU0QxTiJ9'}
+2024-07-03 16:05:41,532:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 955
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 44.202.227.248
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720002941
+X-Slack-Retry-Num: 2
+X-Slack-Retry-Reason: http_error
+X-Slack-Signature: v0=ba18425f6f7e7ccbe4863bb624630e356968c9fe0c8ceea3a87c437c217d5a1e
+
+
+2024-07-03 16:05:41,532:INFO:127.0.0.1 - - [03/Jul/2024 16:05:41] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:08:20,815:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720003099.898139', 'client_msg_id': '0d0edf7b-6529-49e5-a6e3-72d21a6e1098', 'text': 'Nightowl will not work for emails directly which has - and _.\nIf you want nightowl for email you can create email with - but you have to create nightowl account only for prefex and login to nightowl. You will get email.\neg:\nemail : <mailto:abcd-1234@paypal.com|abcd-1234@paypal.com>\nnight owl : abcd\nAs for email with _ its should not be start with _ but it can have at any where.(sometime it will work sometimes not, if it starts with _)', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'Q8mOs', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Nightowl will not work for emails directly which has - and _.\nIf you want nightowl for email you can create email with - but you have to create nightowl account only for prefex and login to nightowl. You will get email.\neg:\nemail : '}, {'type': 'link', 'url': 'mailto:abcd-1234@paypal.com', 'text': 'abcd-1234@paypal.com'}, {'type': 'text', 'text': '\nnight owl : abcd\nAs for email with _ its should not be start with _ but it can have at any where.(sometime it will work sometimes not, if it starts with _)'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720003099.898139', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AY29ESAY', 'event_time': 1720003099, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 16:08:20,817:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1936
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 100.27.229.112
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720003100
+X-Slack-Signature: v0=5b30f4bd99be89c31ede2b6b27faa43d35b4d762bdd91d412e9706a34bd0bb05
+
+
+2024-07-03 16:08:20,819:INFO:127.0.0.1 - - [03/Jul/2024 16:08:20] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:10:47,446:INFO: * Detected change in '/Users/abcom/Documents/joyride/exp/askmeanythingbot/bot.py', reloading
+2024-07-03 16:10:47,494:INFO: * Restarting with stat
+2024-07-03 16:10:47,656:WARNING: * Debugger is active!
+2024-07-03 16:10:47,663:INFO: * Debugger PIN: 853-712-390
+2024-07-03 16:11:38,285:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 16:11:38,285:INFO:[33mPress CTRL+C to quit[0m
+2024-07-03 16:11:38,289:INFO: * Restarting with stat
+2024-07-03 16:11:38,380:WARNING: * Debugger is active!
+2024-07-03 16:11:38,389:INFO: * Debugger PIN: 853-712-390
+2024-07-03 16:12:17,070:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'WAU5H0RC6', 'type': 'message', 'ts': '1720003336.296369', 'client_msg_id': '3b653853-aa17-42bc-a0fc-4e655c12c8f5', 'text': 'what is unp01?', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': 'EG0Wy', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'what is unp01?'}]}]}], 'channel': 'C06S2R3SD1N', 'event_ts': '1720003336.296369', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07ASLW6X61', 'event_time': 1720003336, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDZTMlIzU0QxTiJ9'}
+2024-07-03 16:12:17,070:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 959
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 50.16.148.182
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720003336
+X-Slack-Signature: v0=2f22feb1a47ae8860deee5be2968213152c96eb148d29afb4b6ad993a073aa63
+
+
+2024-07-03 16:12:17,071:INFO:127.0.0.1 - - [03/Jul/2024 16:12:17] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:13:31,295:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'WAU5H0RC6', 'type': 'message', 'ts': '1720003410.530849', 'client_msg_id': '814fff65-3349-4c47-8bca-2278a193f641', 'text': 'what is unp02', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': 'h80yJ', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'what is unp02'}]}]}], 'channel': 'C06S2R3SD1N', 'event_ts': '1720003410.530849', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07ANV1C738', 'event_time': 1720003410, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDZTMlIzU0QxTiJ9'}
+2024-07-03 16:13:31,297:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 957
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.205.113.183
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720003411
+X-Slack-Signature: v0=6edb19c26ae5b9d4e44c149e0c40deb1358bd1ca08f37cab10f8c81d059f07c8
+
+
+2024-07-03 16:13:31,298:INFO:127.0.0.1 - - [03/Jul/2024 16:13:31] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:29:09,671:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U073BQWDC7N', 'type': 'message', 'ts': '1720004343.060259', 'client_msg_id': 'eea40531-4e3a-4cb7-833e-3f7fdfe51db1', 'text': 'this is a test message', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': '0B0RC', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'this is a test message'}]}]}], 'channel': 'C0778V1BDPF', 'event_ts': '1720004343.060259', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AF3S2KPH', 'event_time': 1720004343, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDc3OFYxQkRQRiJ9'}
+2024-07-03 16:29:09,674:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 977
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.82.251.30
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720004349
+X-Slack-Signature: v0=ae2734660ebd19334b92cb6bdfd3f11784cd7c487b14540f6ee21e775977d46a
+
+
+2024-07-03 16:29:09,675:INFO:127.0.0.1 - - [03/Jul/2024 16:29:09] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:33:59,516:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U073BQWDC7N', 'type': 'message', 'ts': '1720004638.665419', 'client_msg_id': '4e7ce3dd-2dba-40d5-b437-6be6914f00b7', 'text': 'this is a test message', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': '0B0RC', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'this is a test message'}]}]}], 'channel': 'C0778V1BDPF', 'event_ts': '1720004638.665419', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07BJEQK8TA', 'event_time': 1720004638, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDc3OFYxQkRQRiJ9'}
+2024-07-03 16:33:59,517:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 977
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 35.173.47.246
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720004639
+X-Slack-Signature: v0=76af4df273945d2cd1087c5616457485805bef58e4ed436b5e315309168e15a3
+
+
+2024-07-03 16:33:59,518:INFO:127.0.0.1 - - [03/Jul/2024 16:33:59] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:34:42,802:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'W014YG25AQ7', 'type': 'message', 'ts': '1720004682.071269', 'client_msg_id': 'f2c48510-f133-4472-827d-c390323e0ae7', 'text': '<@U01JKQJ5GRJ> Is this something to do with the change for restricting classifier pairs?', 'team': 'T0G9AL7B8', 'thread_ts': '1719986784.232629', 'parent_user_id': 'U02CAFHKNSH', 'blocks': [{'type': 'rich_text', 'block_id': 'cfKYf', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'user', 'user_id': 'U01JKQJ5GRJ'}, {'type': 'text', 'text': ' Is this something to do with the change for restricting classifier pairs?'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720004682.071269', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07BJETTS00', 'event_time': 1720004682, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 16:34:42,803:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1194
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.81.24.164
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720004682
+X-Slack-Signature: v0=16e987546879d002c0039d9510cb201592ee030d2f8224f6631570334c9d993d
+
+
+2024-07-03 16:34:42,804:INFO:127.0.0.1 - - [03/Jul/2024 16:34:42] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:39:24,277:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U022LGG3BE3', 'type': 'message', 'ts': '1720004963.661989', 'client_msg_id': 'ed385456-e900-46c1-bbb5-09d39bc2a75f', 'text': 'Okay, sure. I just want to access the mails for this email. You can create a nightowl account with ryan and all the mails for <mailto:ryan-1701115249421@connect.us|ryan-1701115249421@connect.us> should come to it.', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'SXgog', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Okay, sure. I just want to access the mails for this email. You can create a nightowl account with ryan and all the mails for '}, {'type': 'link', 'url': 'mailto:ryan-1701115249421@connect.us', 'text': 'ryan-1701115249421@connect.us'}, {'type': 'text', 'text': ' should come to it.'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720004963.661989', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07ASQGD2LD', 'event_time': 1720004963, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 16:39:24,279:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1476
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 44.220.192.70
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720004964
+X-Slack-Signature: v0=6e3f10adde51659398ceca92323c1ca75c19547c6f5839f6ba326bfe5d94f8c2
+
+
+2024-07-03 16:39:24,280:INFO:127.0.0.1 - - [03/Jul/2024 16:39:24] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:44:42,657:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'W014YG25AQ7', 'type': 'message', 'ts': '1720005281.718179', 'client_msg_id': '46cb1a35-db9d-4053-9b4d-1e7b092af722', 'text': 'This is because of a change made by us in msm. <@U01JKQJ5GRJ> is working on the fix, will update the thread once fixed. <@U02CAFHKNSH>', 'team': 'T0G9AL7B8', 'thread_ts': '1719986784.232629', 'parent_user_id': 'U02CAFHKNSH', 'blocks': [{'type': 'rich_text', 'block_id': 'sn2G1', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'This is because of a change made by us in msm. '}, {'type': 'user', 'user_id': 'U01JKQJ5GRJ'}, {'type': 'text', 'text': ' is working on the fix, will update the thread once fixed. '}, {'type': 'user', 'user_id': 'U02CAFHKNSH'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720005281.718179', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AVNBR1U2', 'event_time': 1720005281, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 16:44:42,658:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1338
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.83.90.187
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720005282
+X-Slack-Signature: v0=b574d7af52d7ca7a1ca6bfd9d328ca55a88a3882a0adc1ca727209f9985caac9
+
+
+2024-07-03 16:44:42,658:INFO:127.0.0.1 - - [03/Jul/2024 16:44:42] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:46:22,014:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U01JKQJ5GRJ', 'type': 'message', 'ts': '1720005381.162209', 'client_msg_id': 'a94ca66c-ed1c-4d7d-8ecf-9e5216bc9dd9', 'text': '<@U02CAFHKNSH> this will take around an hour or so. We are triggering our release now', 'team': 'T0G9AL7B8', 'thread_ts': '1719986784.232629', 'parent_user_id': 'U02CAFHKNSH', 'blocks': [{'type': 'rich_text', 'block_id': '4cARl', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'user', 'user_id': 'U02CAFHKNSH'}, {'type': 'text', 'text': ' this will take around an hour or so. We are triggering our release now'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720005381.162209', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AVNK1PTL', 'event_time': 1720005381, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 16:46:22,015:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1188
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.216.133.119
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720005381
+X-Slack-Signature: v0=99cc5ceb2418e5af911b134b27dff161ad1a6c43ad2e83b8e7b2205ee19b5bd7
+
+
+2024-07-03 16:46:22,016:INFO:127.0.0.1 - - [03/Jul/2024 16:46:22] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:47:45,853:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'type': 'message', 'subtype': 'message_changed', 'message': {'user': 'U01JKQJ5GRJ', 'type': 'message', 'edited': {'user': 'U01JKQJ5GRJ', 'ts': '1720005464.000000'}, 'client_msg_id': 'a94ca66c-ed1c-4d7d-8ecf-9e5216bc9dd9', 'text': '<@U02CAFHKNSH> this will take around ~2 hrs or so. We are triggering our release now', 'team': 'T0G9AL7B8', 'thread_ts': '1719986784.232629', 'parent_user_id': 'U02CAFHKNSH', 'blocks': [{'type': 'rich_text', 'block_id': 'o/nTo', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'user', 'user_id': 'U02CAFHKNSH'}, {'type': 'text', 'text': ' this will take around ~2 hrs or so. We are triggering our release now'}]}]}], 'ts': '1720005381.162209', 'source_team': 'E3T9KQULR', 'user_team': 'E3T9KQULR'}, 'previous_message': {'user': 'U01JKQJ5GRJ', 'type': 'message', 'ts': '1720005381.162209', 'client_msg_id': 'a94ca66c-ed1c-4d7d-8ecf-9e5216bc9dd9', 'text': '<@U02CAFHKNSH> this will take around an hour or so. We are triggering our release now', 'team': 'T0G9AL7B8', 'user_team': 'T0G9AL7B8', 'source_team': 'T0G9AL7B8', 'thread_ts': '1719986784.232629', 'parent_user_id': 'U02CAFHKNSH', 'blocks': [{'type': 'rich_text', 'block_id': '4cARl', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'user', 'user_id': 'U02CAFHKNSH'}, {'type': 'text', 'text': ' this will take around an hour or so. We are triggering our release now'}]}]}]}, 'channel': 'C7BA7AGV8', 'hidden': True, 'ts': '1720005465.182100', 'event_ts': '1720005465.182100', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AP441ELW', 'event_time': 1720005465, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 16:47:45,856:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1999
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.144.107.237
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720005465
+X-Slack-Signature: v0=be5b957324cd45620b8d1e8c284353e7fe7e3686993ed56ba61c7f86815cb0e0
+
+
+2024-07-03 16:47:45,856:INFO:127.0.0.1 - - [03/Jul/2024 16:47:45] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:51:16,826:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U06MW1X198T', 'type': 'message', 'ts': '1720005675.973859', 'client_msg_id': 'e3b97398-3ba7-42a9-afee-1a0a380cd339', 'text': "Hey <@W019C7YNQTC>, we'll need more clarity on your use case before on-boarding your request.\nPlease set up a call with <@W014YG25AQ7> and <@U02HV85FRFD> regarding the same.", 'team': 'T0G9AL7B8', 'thread_ts': '1717062328.553499', 'parent_user_id': 'W019C7YNQTC', 'blocks': [{'type': 'rich_text', 'block_id': 'hD8WH', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Hey '}, {'type': 'user', 'user_id': 'W019C7YNQTC'}, {'type': 'text', 'text': ", we'll need more clarity on your use case before on-boarding your request.\nPlease set up a call with "}, {'type': 'user', 'user_id': 'W014YG25AQ7'}, {'type': 'text', 'text': ' and '}, {'type': 'user', 'user_id': 'U02HV85FRFD'}, {'type': 'text', 'text': ' regarding the same.'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720005675.973859', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AP4JNGMC', 'event_time': 1720005675, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 16:51:16,827:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1496
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 34.235.146.37
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720005676
+X-Slack-Signature: v0=6245ed1742c56b94870114420522ed214df588c9ac2658ddf0e5664c05b35eef
+
+
+2024-07-03 16:51:16,828:INFO:127.0.0.1 - - [03/Jul/2024 16:51:16] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 16:57:01,439:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'text': '', 'files': [{'id': 'F07AP589C0N', 'created': 1720006017, 'timestamp': 1720006017, 'name': 'image.png', 'title': 'image.png', 'mimetype': 'image/png', 'filetype': 'png', 'pretty_type': 'PNG', 'user': 'U04GPGJ7QF4', 'user_team': 'E3T9KQULR', 'editable': False, 'size': 72159, 'mode': 'hosted', 'is_external': False, 'external_type': '', 'is_public': True, 'public_url_shared': False, 'display_as_bot': False, 'username': '', 'url_private': 'https://files.slack.com/files-pri/T3T9KQULR-F07AP589C0N/image.png', 'url_private_download': 'https://files.slack.com/files-pri/T3T9KQULR-F07AP589C0N/download/image.png', 'media_display_type': 'unknown', 'thumb_64': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP589C0N-a99f64baf9/image_64.png', 'thumb_80': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP589C0N-a99f64baf9/image_80.png', 'thumb_360': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP589C0N-a99f64baf9/image_360.png', 'thumb_360_w': 360, 'thumb_360_h': 72, 'thumb_480': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP589C0N-a99f64baf9/image_480.png', 'thumb_480_w': 480, 'thumb_480_h': 96, 'thumb_160': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP589C0N-a99f64baf9/image_160.png', 'thumb_720': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP589C0N-a99f64baf9/image_720.png', 'thumb_720_w': 720, 'thumb_720_h': 145, 'thumb_800': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP589C0N-a99f64baf9/image_800.png', 'thumb_800_w': 800, 'thumb_800_h': 161, 'original_w': 926, 'original_h': 186, 'thumb_tiny': 'AwAJADDQ70fjmjuaQ/0oAUZ9CaDn0p46CigBmD705RilooA//9k=', 'permalink': 'https://paypal.enterprise.slack.com/files/U04GPGJ7QF4/F07AP589C0N/image.png', 'permalink_public': 'https://slack-files.com/T3T9KQULR-F07AP589C0N-da6046760c', 'has_rich_preview': False, 'file_access': 'visible'}], 'upload': False, 'user': 'U04GPGJ7QF4', 'display_as_bot': False, 'type': 'message', 'ts': '1720006020.610509', 'client_msg_id': 'fdb867e3-3590-4885-a982-3a98a894cdcb', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'channel': 'C7BA7AGV8', 'subtype': 'file_share', 'event_ts': '1720006020.610509', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07ASSNF2CV', 'event_time': 1720006020, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 16:57:01,441:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 2680
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 52.90.152.38
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720006021
+X-Slack-Signature: v0=8124e8299081802e4ff74b92996f177d0ae66933cb8d69a6b59295faa19bfa7b
+
+
+2024-07-03 16:57:01,442:INFO:127.0.0.1 - - [03/Jul/2024 16:57:01] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:03:43,533:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U01K48N8PJT', 'type': 'message', 'ts': '1720006422.638179', 'client_msg_id': '15484346-b076-44f7-bbe3-2841c2152f7b', 'text': 'Hi Team , Could you please create a nightowl account for the following user id sthanapal?', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': 'GfDeD', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Hi Team , Could you please create a nightowl account for the following user id sthanapal?'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720006422.638179', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AF8CE26T', 'event_time': 1720006422, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:03:43,535:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1107
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 18.215.249.184
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720006423
+X-Slack-Signature: v0=46a5017da839440a2d682cb4b36fe033450cb513c723c68fc8cf2b9b20d6db92
+
+
+2024-07-03 17:03:43,538:INFO:127.0.0.1 - - [03/Jul/2024 17:03:43] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:21:43,425:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'text': '', 'files': [{'id': 'F07AP8DHX70', 'created': 1720007498, 'timestamp': 1720007498, 'name': 'image.png', 'title': 'image.png', 'mimetype': 'image/png', 'filetype': 'png', 'pretty_type': 'PNG', 'user': 'U04GPGJ7QF4', 'user_team': 'E3T9KQULR', 'editable': False, 'size': 72211, 'mode': 'hosted', 'is_external': False, 'external_type': '', 'is_public': True, 'public_url_shared': False, 'display_as_bot': False, 'username': '', 'url_private': 'https://files.slack.com/files-pri/T3T9KQULR-F07AP8DHX70/image.png', 'url_private_download': 'https://files.slack.com/files-pri/T3T9KQULR-F07AP8DHX70/download/image.png', 'media_display_type': 'unknown', 'thumb_64': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP8DHX70-52f3ed1f6b/image_64.png', 'thumb_80': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP8DHX70-52f3ed1f6b/image_80.png', 'thumb_360': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP8DHX70-52f3ed1f6b/image_360.png', 'thumb_360_w': 360, 'thumb_360_h': 62, 'thumb_480': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP8DHX70-52f3ed1f6b/image_480.png', 'thumb_480_w': 480, 'thumb_480_h': 82, 'thumb_160': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP8DHX70-52f3ed1f6b/image_160.png', 'thumb_720': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP8DHX70-52f3ed1f6b/image_720.png', 'thumb_720_w': 720, 'thumb_720_h': 123, 'thumb_800': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP8DHX70-52f3ed1f6b/image_800.png', 'thumb_800_w': 800, 'thumb_800_h': 137, 'thumb_960': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP8DHX70-52f3ed1f6b/image_960.png', 'thumb_960_w': 960, 'thumb_960_h': 164, 'thumb_1024': 'https://files.slack.com/files-tmb/T3T9KQULR-F07AP8DHX70-52f3ed1f6b/image_1024.png', 'thumb_1024_w': 1024, 'thumb_1024_h': 175, 'original_w': 1064, 'original_h': 182, 'thumb_tiny': 'AwAIADDQ+tGOwzTqO9ACYb0FGCadRQA0qe386cOlFFAH/9k=', 'permalink': 'https://paypal.enterprise.slack.com/files/U04GPGJ7QF4/F07AP8DHX70/image.png', 'permalink_public': 'https://slack-files.com/T3T9KQULR-F07AP8DHX70-b55f9ebf7d', 'has_rich_preview': False, 'file_access': 'visible'}], 'upload': False, 'user': 'U04GPGJ7QF4', 'display_as_bot': False, 'type': 'message', 'ts': '1720007502.633089', 'client_msg_id': '3d7ccea7-fc6e-48bd-ac48-d96abb9daa51', 'thread_ts': '1720006422.638179', 'parent_user_id': 'U01K48N8PJT', 'channel': 'C7BA7AGV8', 'subtype': 'file_share', 'event_ts': '1720007502.633089', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AVT0NHC2', 'event_time': 1720007502, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:21:43,427:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 2952
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.80.93.205
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720007503
+X-Slack-Signature: v0=cd5c48c079c47ad8d94274390239384b2cc2f4089273a9a62de90dc26c066827
+
+
+2024-07-03 17:21:43,428:INFO:127.0.0.1 - - [03/Jul/2024 17:21:43] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:21:51,112:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U03STRC19E3', 'type': 'message', 'ts': '1720007510.429569', 'client_msg_id': '9b041400-278f-4a73-9a6a-d30b7d413c21', 'text': 'what is unp?', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': 'qm+Rm', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'what is unp?'}]}]}], 'channel': 'C06S2R3SD1N', 'event_ts': '1720007510.429569', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AP8ECJP8', 'event_time': 1720007510, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDZTMlIzU0QxTiJ9'}
+2024-07-03 17:21:51,113:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 957
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.160.1.49
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720007510
+X-Slack-Signature: v0=71e5c67b37c70d4334ee32c4f457b099c2dc1b29feeb6ba1db4457750d47d671
+
+
+2024-07-03 17:21:51,114:INFO:127.0.0.1 - - [03/Jul/2024 17:21:51] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:23:27,573:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U01K48N8PJT', 'type': 'message', 'ts': '1720007606.729679', 'client_msg_id': '8187b1f3-6a8c-470c-9c3e-946826e6f4e2', 'text': '<@U04GPGJ7QF4> Thank you for the quick support!', 'team': 'T0G9AL7B8', 'thread_ts': '1720006422.638179', 'parent_user_id': 'U01K48N8PJT', 'blocks': [{'type': 'rich_text', 'block_id': '7nFNg', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'user', 'user_id': 'U04GPGJ7QF4'}, {'type': 'text', 'text': ' Thank you for the quick support!'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720007606.729679', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AP8M6Q3Y', 'event_time': 1720007606, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:23:27,576:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1112
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 34.205.127.250
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720007607
+X-Slack-Signature: v0=478d3582670c6faee9ab774fb6dc8da59c0911142b658e72a386ddc9402ab450
+
+
+2024-07-03 17:23:27,577:INFO:127.0.0.1 - - [03/Jul/2024 17:23:27] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:29:59,173:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U022LGG3BE3', 'type': 'message', 'ts': '1720007998.341049', 'client_msg_id': 'c765c1a5-4def-4b56-aa9d-2018944f0a38', 'text': 'Hi <@U04GPGJ7QF4>, I am not able to see any emails that I am sending to <mailto:ryan-1701115249421@connect.us|ryan-1701115249421@connect.us> on nightowl when I login using ryan. Is there some issue going on? Even nctracker-qa is not opening.', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'lFDK8', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Hi '}, {'type': 'user', 'user_id': 'U04GPGJ7QF4'}, {'type': 'text', 'text': ', I am not able to see any emails that I am sending to '}, {'type': 'link', 'url': 'mailto:ryan-1701115249421@connect.us', 'text': 'ryan-1701115249421@connect.us'}, {'type': 'text', 'text': ' on nightowl when I login using ryan. Is there some issue going on? Even nctracker-qa is not opening.'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720007998.341049', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AFBPGASK', 'event_time': 1720007998, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:29:59,175:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1584
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 34.229.90.241
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720007998
+X-Slack-Signature: v0=038d31cec486dcb1cc5b347738c2cfa8aef83039b488dbdcdf42975d5303fa95
+
+
+2024-07-03 17:29:59,176:INFO:127.0.0.1 - - [03/Jul/2024 17:29:59] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:30:41,386:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720008040.504919', 'client_msg_id': '9cf39bba-7f36-4c49-bca1-bf2096edd581', 'text': 'checking', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'UIR79', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'checking'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720008040.504919', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AVUBL2EN', 'event_time': 1720008040, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:30:41,389:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1008
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.160.251.144
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720008041
+X-Slack-Signature: v0=03b74685e89f7901933755d71477155cc4497a6c71f0f17b1b043b9476df35d3
+
+
+2024-07-03 17:30:41,390:INFO:127.0.0.1 - - [03/Jul/2024 17:30:41] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:31:44,871:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720008103.795429', 'client_msg_id': '1c42b920-b15c-4bd0-a203-5cfcf7ba4541', 'text': '<https://internal.msmaster.qa.paypal.com/notifications/tracker>', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'tWux5', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'link', 'url': 'https://internal.msmaster.qa.paypal.com/notifications/tracker'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720008103.795429', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AP9WNELW', 'event_time': 1720008103, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:31:44,876:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1123
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.84.46.228
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720008104
+X-Slack-Signature: v0=5f3cc41cfa8361f91cb903b17e4d163e1a73faa400d1bcecd7c543c8250cf6d3
+
+
+2024-07-03 17:31:44,876:INFO:127.0.0.1 - - [03/Jul/2024 17:31:44] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:32:07,296:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720008126.647929', 'client_msg_id': '8f7cb9a0-cf22-4e73-bd1c-e685e5807a13', 'text': 'please use ryan to lgin', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'AEmmE', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'please use ryan to lgin'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720008126.647929', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AVUKG282', 'event_time': 1720008126, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:32:07,298:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1038
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.237.175.128
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720008127
+X-Slack-Signature: v0=90310c7a600edd0daa8376cb4fc7286e068c9586a404cb701da2e24afa7157bd
+
+
+2024-07-03 17:32:07,298:INFO:127.0.0.1 - - [03/Jul/2024 17:32:07] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:32:52,045:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U022LGG3BE3', 'type': 'message', 'ts': '1720008171.105829', 'client_msg_id': '0fbdb39e-cc4e-4f2c-8adc-1c1caf332eb0', 'text': 'Is the notification tracker opening on your end?', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'C3lV/', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Is the notification tracker opening on your end?'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720008171.105829', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07BJNE6SSC', 'event_time': 1720008171, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:32:52,047:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1089
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.235.179.155
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720008171
+X-Slack-Signature: v0=16f446980ad6e37aa12146a8876170eb78c300e3487d03add7ed14cd47097d7a
+
+
+2024-07-03 17:32:52,048:INFO:127.0.0.1 - - [03/Jul/2024 17:32:52] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:32:54,425:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U01K48N8PJT', 'type': 'message', 'ts': '1720008173.651369', 'client_msg_id': '0ae7204a-2d43-4a46-9e8c-4336e49802d2', 'text': '<@U04GPGJ7QF4>, Sorry am getting authentication failed error', 'team': 'T0G9AL7B8', 'thread_ts': '1720006422.638179', 'parent_user_id': 'U01K48N8PJT', 'blocks': [{'type': 'rich_text', 'block_id': 'bK4Vw', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'user', 'user_id': 'U04GPGJ7QF4'}, {'type': 'text', 'text': ', Sorry am getting authentication failed error'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720008173.651369', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AYDCKHHS', 'event_time': 1720008173, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:32:54,427:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1138
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.81.215.199
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720008174
+X-Slack-Signature: v0=28e795fdf2a52d0cafab53632f34b1e623c044eff3e393689ec4c2a7b0f732c7
+
+
+2024-07-03 17:32:54,429:INFO:127.0.0.1 - - [03/Jul/2024 17:32:54] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:32:59,756:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720008178.815959', 'client_msg_id': '7f0fba14-907f-4066-97d2-8f0171a0df62', 'text': 'yes', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'IB8ze', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'yes'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720008178.815959', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07BJNERDAL', 'event_time': 1720008178, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:32:59,757:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 998
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.81.213.209
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720008179
+X-Slack-Signature: v0=796285db7c6364209345166b9ae8b17c9769fe6699d35fcad4221f10a410343f
+
+
+2024-07-03 17:32:59,758:INFO:127.0.0.1 - - [03/Jul/2024 17:32:59] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:49:29,078:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720009168.002429', 'client_msg_id': '69c5bb09-0ada-48c8-b8f6-a1f24918cf3b', 'text': 'zits working fine\n<http://nightowl-webmail.dev52.cbf.dev.paypalinc.com/?_task=mail&amp;_mbox=INBOX>', 'team': 'T0G9AL7B8', 'thread_ts': '1720006422.638179', 'parent_user_id': 'U01K48N8PJT', 'blocks': [{'type': 'rich_text', 'block_id': 'w8yTm', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'zits working fine\n'}, {'type': 'link', 'url': 'http://nightowl-webmail.dev52.cbf.dev.paypalinc.com/?_task=mail&_mbox=INBOX'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720009168.002429', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AW1L7FT4', 'event_time': 1720009168, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:49:29,080:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1217
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.89.108.159
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720009168
+X-Slack-Signature: v0=3022d3ba9a68350420246f665b5654fb606f63f6f3f54526df8b1c5ded314e3c
+
+
+2024-07-03 17:49:29,080:INFO:127.0.0.1 - - [03/Jul/2024 17:49:29] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:52:59,654:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U01K48N8PJT', 'type': 'message', 'ts': '1720009378.654629', 'client_msg_id': '95bbf424-1ae8-4e4d-83e3-043c9f67e5bf', 'text': 'Tried to login in <https://engineering.paypalcorp.com/nightowl/>', 'team': 'T0G9AL7B8', 'thread_ts': '1720006422.638179', 'parent_user_id': 'U01K48N8PJT', 'blocks': [{'type': 'rich_text', 'block_id': 'GIBD6', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Tried to login in '}, {'type': 'link', 'url': 'https://engineering.paypalcorp.com/nightowl/'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720009378.654629', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AVU4J751', 'event_time': 1720009378, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:52:59,657:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1151
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 18.212.207.163
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720009379
+X-Slack-Signature: v0=4be83bffa8a5fc5027520c1838ed58576606c0ed5f919d2bc92f61af45b53a93
+
+
+2024-07-03 17:52:59,657:INFO:127.0.0.1 - - [03/Jul/2024 17:52:59] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:55:08,425:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U073BQWDC7N', 'type': 'message', 'ts': '1720009507.544929', 'client_msg_id': '101ebe01-75f8-4eca-86a1-b0bbfbcfdbde', 'text': 'this is a test message', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': '0B0RC', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'this is a test message'}]}]}], 'channel': 'C0778V1BDPF', 'event_ts': '1720009507.544929', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07BJRHT26L', 'event_time': 1720009507, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDc3OFYxQkRQRiJ9'}
+2024-07-03 17:55:08,433:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 977
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.146.103.182
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720009508
+X-Slack-Signature: v0=dfd59a948aa3c3631284b22c001f910ef90bd1bd61b998ff911163344a1c61d6
+
+
+2024-07-03 17:55:08,440:INFO:127.0.0.1 - - [03/Jul/2024 17:55:08] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:55:26,305:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720009525.255529', 'client_msg_id': '18a3faea-1e98-4a8a-9c3e-7f58126ddd8a', 'text': 'try to use go/nightowl', 'team': 'T0G9AL7B8', 'thread_ts': '1720006422.638179', 'parent_user_id': 'U01K48N8PJT', 'blocks': [{'type': 'rich_text', 'block_id': 'WRFsJ', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'try to use go/nightowl'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720009525.255529', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07BJRKC4LQ', 'event_time': 1720009525, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:55:26,306:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1038
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 18.206.240.165
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720009525
+X-Slack-Signature: v0=69c5775cd4a5a31963c5d360d1ebbe67ddd024988787afec570235285ce63d4d
+
+
+2024-07-03 17:55:26,306:INFO:127.0.0.1 - - [03/Jul/2024 17:55:26] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 17:55:47,737:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720009546.805889', 'client_msg_id': 'aab879a5-11fb-4679-99bc-24ce1b5ebff1', 'text': 'Please try to use the link which I gave', 'team': 'T0G9AL7B8', 'thread_ts': '1720006422.638179', 'parent_user_id': 'U01K48N8PJT', 'blocks': [{'type': 'rich_text', 'block_id': 'A03kV', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Please try to use the link which I gave'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720009546.805889', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AVUJ2RM1', 'event_time': 1720009546, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 17:55:47,739:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1070
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.165.171.124
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720009547
+X-Slack-Signature: v0=a662d21c23cf58a3efb7359cd24d358bc814045bdb05b1b2dfc089bfae559fcc
+
+
+2024-07-03 17:55:47,740:INFO:127.0.0.1 - - [03/Jul/2024 17:55:47] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:00:21,209:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U029JG5LQCQ', 'type': 'message', 'ts': '1720009820.264529', 'client_msg_id': 'a7ecb504-da82-4943-a9c9-6cc7c3496035', 'text': 'Hi <@U022N7AHX9N> can you please confirm if the topic has been pushed ?', 'team': 'T0G9AL7B8', 'thread_ts': '1719815555.878129', 'parent_user_id': 'U029JG5LQCQ', 'blocks': [{'type': 'rich_text', 'block_id': '1M1ad', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Hi '}, {'type': 'user', 'user_id': 'U022N7AHX9N'}, {'type': 'text', 'text': ' can you please confirm if the topic has been pushed ?'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720009820.264529', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AFG6S3ST', 'event_time': 1720009820, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:00:21,211:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1186
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 52.207.237.112
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720009820
+X-Slack-Signature: v0=30378b1a4824b6652383ea9d4271160beb9a8676d6d5e1680c7b53fd7726db50
+
+
+2024-07-03 18:00:21,212:INFO:127.0.0.1 - - [03/Jul/2024 18:00:21] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:01:08,196:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'WC3TVBHKL', 'type': 'message', 'ts': '1720009867.240859', 'bot_id': 'BC36S1HKJ', 'app_id': 'AC4H5A5SA', 'text': 'Feedback-Message', 'team': 'T0G9AL7B8', 'bot_profile': {'id': 'BC36S1HKJ', 'deleted': False, 'name': 'SearchMate', 'updated': 1701754278, 'app_id': 'AC4H5A5SA', 'icons': {'image_36': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_36.jpg', 'image_48': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_48.jpg', 'image_72': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_72.jpg'}, 'team_id': 'T0G9AL7B8'}, 'thread_ts': '1720009507.544929', 'parent_user_id': 'U073BQWDC7N', 'blocks': [{'type': 'input', 'block_id': 'fbHvG', 'label': {'type': 'plain_text', 'text': 'Was this information helpful? Help us improve by letting us know', 'emoji': True}, 'optional': False, 'dispatch_action': False, 'element': {'type': 'radio_buttons', 'action_id': 'Interation-ID', 'options': [{'text': {'type': 'mrkdwn', 'text': 'Great! :+1::skin-tone-2:', 'verbatim': False}, 'value': 'Thumbs Up'}, {'text': {'type': 'mrkdwn', 'text': 'Needs improvement! :-1::skin-tone-2:', 'verbatim': False}, 'value': 'Thumbs Down'}]}}], 'channel': 'C0778V1BDPF', 'event_ts': '1720009867.240859', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AYHFE960', 'event_time': 1720009867, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDc3OFYxQkRQRiJ9'}
+2024-07-03 18:01:08,199:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1801
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.227.127.215
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720009867
+X-Slack-Signature: v0=03da4903d9b68f9891838814d435d1d54516a8f2182054826cd81acefee6cbfa
+
+
+2024-07-03 18:01:08,199:INFO:127.0.0.1 - - [03/Jul/2024 18:01:08] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:03:04,002:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U05S9B9AN4A', 'type': 'message', 'ts': '1720009982.640269', 'client_msg_id': '9cccbb5a-4cfd-4fba-956b-96dd4e28bd77', 'text': 'Hi Team, As part of  one of our email notification batch run , We could see few connection errors and wanted to confirm if email has been sent to below user accounts today:\n27EYNBDTQJS8Q\n32XBJF3VXPBTN\nKR234C9TMEKDG\nS4322B4LDGDG6\nKFWE8YHV8W3AA\n\nunpnotifyserv  path - /v1/notifications/topics/za-email/notify\nbatch correlationID - *2399ad5a4dc2f* \nCan yu help us here.', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': '6hcfE', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Hi Team, As part of  one of our email notification batch run , We could see few connection errors and wanted to confirm if email has been sent to below user accounts today:\n27EYNBDTQJS8Q\n32XBJF3VXPBTN\nKR234C9TMEKDG\nS4322B4LDGDG6\nKFWE8YHV8W3AA\n\nunpnotifyserv  path - /v1/notifications/topics/za-email/notify\nbatch correlationID - '}, {'type': 'text', 'text': '2399ad5a4dc2f ', 'style': {'bold': True}}, {'type': 'text', 'text': '\nCan yu help us here.'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720009982.640269', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07B8P8608H', 'event_time': 1720009982, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:03:04,004:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1761
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 34.229.132.200
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720009983
+X-Slack-Signature: v0=9a0cccb092721d35715a42d3f94a9ef2cf17d28406b5ae956380007fa5758db7
+
+
+2024-07-03 18:03:04,005:INFO:127.0.0.1 - - [03/Jul/2024 18:03:04] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:03:57,831:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'text': "Hi <@U04GPGJ7QF4>, I sent a mail to <mailto:ryan-1701115249421@connect.us|ryan-1701115249421@connect.us> and on <https://go/nctracker-qa> , its status is SENT but I don't see it in nightowl. Are you sure if I login with username ryan in nightowl, I'll get all the mails sent to <mailto:ryan-1701115249421@connect.us|ryan-1701115249421@connect.us> ?", 'files': [{'id': 'F07B8P4S7S5', 'created': 1720009944, 'timestamp': 1720009944, 'name': 'image.png', 'title': 'image.png', 'mimetype': 'image/png', 'filetype': 'png', 'pretty_type': 'PNG', 'user': 'U022LGG3BE3', 'user_team': 'E3T9KQULR', 'editable': False, 'size': 141590, 'mode': 'hosted', 'is_external': False, 'external_type': '', 'is_public': True, 'public_url_shared': False, 'display_as_bot': False, 'username': '', 'url_private': 'https://files.slack.com/files-pri/T3T9KQULR-F07B8P4S7S5/image.png', 'url_private_download': 'https://files.slack.com/files-pri/T3T9KQULR-F07B8P4S7S5/download/image.png', 'media_display_type': 'unknown', 'thumb_64': 'https://files.slack.com/files-tmb/T3T9KQULR-F07B8P4S7S5-434ff3f2fc/image_64.png', 'thumb_80': 'https://files.slack.com/files-tmb/T3T9KQULR-F07B8P4S7S5-434ff3f2fc/image_80.png', 'thumb_360': 'https://files.slack.com/files-tmb/T3T9KQULR-F07B8P4S7S5-434ff3f2fc/image_360.png', 'thumb_360_w': 360, 'thumb_360_h': 138, 'thumb_480': 'https://files.slack.com/files-tmb/T3T9KQULR-F07B8P4S7S5-434ff3f2fc/image_480.png', 'thumb_480_w': 480, 'thumb_480_h': 184, 'thumb_160': 'https://files.slack.com/files-tmb/T3T9KQULR-F07B8P4S7S5-434ff3f2fc/image_160.png', 'thumb_720': 'https://files.slack.com/files-tmb/T3T9KQULR-F07B8P4S7S5-434ff3f2fc/image_720.png', 'thumb_720_w': 720, 'thumb_720_h': 276, 'thumb_800': 'https://files.slack.com/files-tmb/T3T9KQULR-F07B8P4S7S5-434ff3f2fc/image_800.png', 'thumb_800_w': 800, 'thumb_800_h': 306, 'thumb_960': 'https://files.slack.com/files-tmb/T3T9KQULR-F07B8P4S7S5-434ff3f2fc/image_960.png', 'thumb_960_w': 960, 'thumb_960_h': 368, 'thumb_1024': 'https://files.slack.com/files-tmb/T3T9KQULR-F07B8P4S7S5-434ff3f2fc/image_1024.png', 'thumb_1024_w': 1024, 'thumb_1024_h': 392, 'original_w': 2130, 'original_h': 816, 'thumb_tiny': 'AwASADC2iQhFzECSOu2nCOAn/VL+K0ID5aYx07ingccrn8KYEfkJ/cj/AO+KXyI8/cjx/uVJRQA3yYf+eSf9802SGLy2xGucelSUj/6tvoaAEiUGJcgHj0p9Nh/1S/SnUgCiiimA1utI33G/3aVutI33G+lID//Z', 'permalink': 'https://paypal.enterprise.slack.com/files/U022LGG3BE3/F07B8P4S7S5/image.png', 'permalink_public': 'https://slack-files.com/T3T9KQULR-F07B8P4S7S5-90a320e6e7', 'has_rich_preview': False, 'file_access': 'visible'}], 'upload': False, 'user': 'U022LGG3BE3', 'display_as_bot': False, 'blocks': [{'type': 'rich_text', 'block_id': 'XbsWO', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Hi '}, {'type': 'user', 'user_id': 'U04GPGJ7QF4'}, {'type': 'text', 'text': ', I sent a mail to '}, {'type': 'link', 'url': 'mailto:ryan-1701115249421@connect.us', 'text': 'ryan-1701115249421@connect.us'}, {'type': 'text', 'text': ' and on '}, {'type': 'link', 'url': 'https://go/nctracker-qa'}, {'type': 'text', 'text': " , its status is SENT but I don't see it in nightowl. Are you sure if I login with username ryan in nightowl, I'll get all the mails sent to "}, {'type': 'link', 'url': 'mailto:ryan-1701115249421@connect.us', 'text': 'ryan-1701115249421@connect.us'}, {'type': 'text', 'text': ' ?'}]}]}], 'type': 'message', 'ts': '1720010037.165699', 'client_msg_id': '4202dbd7-1f0f-4735-a7f1-fa536e259b93', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'channel': 'C7BA7AGV8', 'subtype': 'file_share', 'event_ts': '1720010037.165699', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07BJSXR6AC', 'event_time': 1720010037, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:03:57,833:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 4128
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 50.16.148.182
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010037
+X-Slack-Signature: v0=5e122583c4b23eb1e31db41f0f8df6f7105d1f7bacf80f11058e3a31d71b8395
+
+
+2024-07-03 18:03:57,834:INFO:127.0.0.1 - - [03/Jul/2024 18:03:57] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:04:04,579:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'WC3TVBHKL', 'type': 'message', 'ts': '1720010043.723619', 'bot_id': 'BC36S1HKJ', 'app_id': 'AC4H5A5SA', 'text': 'Feedback-Message', 'team': 'T0G9AL7B8', 'bot_profile': {'id': 'BC36S1HKJ', 'deleted': False, 'name': 'SearchMate', 'updated': 1701754278, 'app_id': 'AC4H5A5SA', 'icons': {'image_36': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_36.jpg', 'image_48': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_48.jpg', 'image_72': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_72.jpg'}, 'team_id': 'T0G9AL7B8'}, 'thread_ts': '1720009507.544929', 'parent_user_id': 'U073BQWDC7N', 'blocks': [{'type': 'input', 'block_id': 'fbHvG', 'label': {'type': 'plain_text', 'text': 'Was this information helpful? Help us improve by letting us know', 'emoji': True}, 'optional': False, 'dispatch_action': False, 'element': {'type': 'radio_buttons', 'action_id': 'Interation-ID', 'options': [{'text': {'type': 'mrkdwn', 'text': 'Great! :+1::skin-tone-2:', 'verbatim': False}, 'value': 'Thumbs Up'}, {'text': {'type': 'mrkdwn', 'text': 'Needs improvement! :-1::skin-tone-2:', 'verbatim': False}, 'value': 'Thumbs Down'}]}}], 'channel': 'C0778V1BDPF', 'event_ts': '1720010043.723619', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AT6LKY2H', 'event_time': 1720010043, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDc3OFYxQkRQRiJ9'}
+2024-07-03 18:04:04,580:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1801
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.225.41.178
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010044
+X-Slack-Signature: v0=2a1dd6f0e004c60de9d97d0d0e7f40abeb43beadea51687bb795f767e63b6b95
+
+
+2024-07-03 18:04:04,580:INFO:127.0.0.1 - - [03/Jul/2024 18:04:04] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:04:58,156:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720010097.423589', 'client_msg_id': '4fc9dda2-e651-488e-a4bf-e1d1046b4d7f', 'text': 'i dont think you will get mails for <mailto:ryan-1701115249421@connect.us|ryan-1701115249421@connect.us>', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': '2KH/z', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'i dont think you will get mails for '}, {'type': 'link', 'url': 'mailto:ryan-1701115249421@connect.us', 'text': 'ryan-1701115249421@connect.us'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720010097.423589', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AW3Y130S', 'event_time': 1720010097, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:04:58,157:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1233
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.89.86.2
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010097
+X-Slack-Signature: v0=98d8315cf0dd5f17b60b45c51f0b1b0506e5ce6512103a1cac7e804f0bce3546
+
+
+2024-07-03 18:04:58,158:INFO:127.0.0.1 - - [03/Jul/2024 18:04:58] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:05:24,788:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720010123.882029', 'client_msg_id': '31ff1804-ab2d-4f93-bef0-49bc56e76b79', 'text': 'nightowl is internal toll for paypal', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'RFV5b', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'nightowl is internal toll for paypal'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720010123.882029', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07B8PL3WU9', 'event_time': 1720010123, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:05:24,790:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1064
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.227.127.215
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010124
+X-Slack-Signature: v0=876342ef511c04de3a6a4e54d0e7516be54709550ce6917dc06b405811a1be98
+
+
+2024-07-03 18:05:24,792:INFO:127.0.0.1 - - [03/Jul/2024 18:05:24] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:05:40,431:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'type': 'message', 'subtype': 'message_changed', 'message': {'user': 'U04GPGJ7QF4', 'type': 'message', 'edited': {'user': 'U04GPGJ7QF4', 'ts': '1720010139.000000'}, 'client_msg_id': '31ff1804-ab2d-4f93-bef0-49bc56e76b79', 'text': 'nightowl is internal tool for paypal', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'IiaVD', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'nightowl is internal tool for paypal'}]}]}], 'ts': '1720010123.882029', 'source_team': 'E3T9KQULR', 'user_team': 'E3T9KQULR'}, 'previous_message': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720010123.882029', 'client_msg_id': '31ff1804-ab2d-4f93-bef0-49bc56e76b79', 'text': 'nightowl is internal toll for paypal', 'team': 'T0G9AL7B8', 'user_team': 'T0G9AL7B8', 'source_team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'RFV5b', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'nightowl is internal toll for paypal'}]}]}]}, 'channel': 'C7BA7AGV8', 'hidden': True, 'ts': '1720010139.185400', 'event_ts': '1720010139.185400', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AW0PC41H', 'event_time': 1720010139, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:05:40,433:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1752
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.236.231.3
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010140
+X-Slack-Signature: v0=520abcafc373c18e99305736d6e8f0fbc39e639d630692c6e70ed7db5f84673c
+
+
+2024-07-03 18:05:40,433:INFO:127.0.0.1 - - [03/Jul/2024 18:05:40] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:05:51,542:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U022LGG3BE3', 'type': 'message', 'ts': '1720010150.750359', 'client_msg_id': 'a49cb8d7-e65b-44c4-b98a-3c399c8c9e00', 'text': 'So, I wanted a nightowl for <mailto:ryan-1701115249421@connect.us|ryan-1701115249421@connect.us> only. Is it not possible to have nightowl for this?', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'Fg1I8', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'So, I wanted a nightowl for '}, {'type': 'link', 'url': 'mailto:ryan-1701115249421@connect.us', 'text': 'ryan-1701115249421@connect.us'}, {'type': 'text', 'text': ' only. Is it not possible to have nightowl for this?'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720010150.750359', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AT6VKGSH', 'event_time': 1720010150, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:05:51,545:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1346
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.144.50.127
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010151
+X-Slack-Signature: v0=864f431e9613b0306055f813335dbf77864329ce4e088806a9bbd8cdfe452e83
+
+
+2024-07-03 18:05:51,545:INFO:127.0.0.1 - - [03/Jul/2024 18:05:51] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:06:04,421:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U022LGG3BE3', 'type': 'message', 'ts': '1720010163.557499', 'client_msg_id': '020949ab-6daf-4bcc-b231-fcabb90f4c52', 'text': "It's a Fastlane account.", 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'yW0uE', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': "It's a Fastlane account."}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720010163.557499', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07APEWMDFY', 'event_time': 1720010163, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:06:04,423:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1040
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.227.127.215
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010164
+X-Slack-Signature: v0=a70fe96cc5829fd939eba003693d27012da1b307ce448d038a0c3e1077b8379d
+
+
+2024-07-03 18:06:04,423:INFO:127.0.0.1 - - [03/Jul/2024 18:06:04] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:06:13,141:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720010172.076969', 'client_msg_id': '742c059b-c54a-42d9-9321-85b72f8c5ac9', 'text': 'i dont think I can create account for <http://connect.us|connect.us>', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'hEOwa', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'i dont think I can create account for '}, {'type': 'link', 'url': 'http://connect.us', 'text': 'connect.us'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720010172.076969', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07B8PQ3JKB', 'event_time': 1720010172, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:06:13,141:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1164
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 52.90.137.100
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010172
+X-Slack-Signature: v0=ff0dc61bc5544fa24b0db9d533102fca279ed678aeff2811a8e15f539e608d00
+
+
+2024-07-03 18:06:13,141:INFO:127.0.0.1 - - [03/Jul/2024 18:06:13] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:06:27,884:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U022LGG3BE3', 'type': 'message', 'ts': '1720010187.082239', 'client_msg_id': '65b5f979-1dc7-40d2-9a2e-5ec232596a1a', 'text': 'Oh okay', 'team': 'T0G9AL7B8', 'thread_ts': '1719999222.886869', 'parent_user_id': 'U022LGG3BE3', 'blocks': [{'type': 'rich_text', 'block_id': 'GAFDZ', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Oh okay'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720010187.082239', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AW0T9MKM', 'event_time': 1720010187, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 18:06:27,886:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1006
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.144.107.237
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010187
+X-Slack-Signature: v0=750dd248c33d0486f8474d68b93bd54dde2f3940e5d4616696ade0b0f2943877
+
+
+2024-07-03 18:06:27,887:INFO:127.0.0.1 - - [03/Jul/2024 18:06:27] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:11:36,441:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U073BQWDC7N', 'type': 'message', 'ts': '1720010495.711179', 'client_msg_id': '7de69345-be0d-4b3a-8ceb-e4b134f3559c', 'text': 'this is a test message', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': '0B0RC', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'this is a test message'}]}]}], 'channel': 'C0778V1BDPF', 'event_ts': '1720010495.711179', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AW4X4NF4', 'event_time': 1720010495, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDc3OFYxQkRQRiJ9'}
+2024-07-03 18:11:36,442:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 977
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.84.152.160
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010496
+X-Slack-Signature: v0=ce8ff5d7a72f7eb985fab0b8cbf584c99452b6f2c13f54365185834200663435
+
+
+2024-07-03 18:11:36,443:INFO:127.0.0.1 - - [03/Jul/2024 18:11:36] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:12:32,800:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U073BQWDC7N', 'type': 'message', 'ts': '1720010551.984629', 'client_msg_id': 'e481367d-7bc3-4db0-baa8-4c18a2a5046a', 'text': 'this is a test message', 'team': 'T0G9AL7B8', 'blocks': [{'type': 'rich_text', 'block_id': '0B0RC', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'this is a test message'}]}]}], 'channel': 'C0778V1BDPF', 'event_ts': '1720010551.984629', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AW51R658', 'event_time': 1720010551, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDc3OFYxQkRQRiJ9'}
+2024-07-03 18:12:32,802:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 977
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.80.175.19
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010552
+X-Slack-Signature: v0=8e316b4e786aa33c704d581cf651b0deb64d62c59a7956251af57910c48642be
+
+
+2024-07-03 18:12:32,803:INFO:127.0.0.1 - - [03/Jul/2024 18:12:32] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:19:02,456:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'WC3TVBHKL', 'type': 'message', 'ts': '1720010941.524729', 'bot_id': 'BC36S1HKJ', 'app_id': 'AC4H5A5SA', 'text': 'Feedback-Message', 'team': 'T0G9AL7B8', 'bot_profile': {'id': 'BC36S1HKJ', 'deleted': False, 'name': 'SearchMate', 'updated': 1701754278, 'app_id': 'AC4H5A5SA', 'icons': {'image_36': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_36.jpg', 'image_48': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_48.jpg', 'image_72': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_72.jpg'}, 'team_id': 'T0G9AL7B8'}, 'thread_ts': '1720010495.711179', 'parent_user_id': 'U073BQWDC7N', 'blocks': [{'type': 'input', 'block_id': 'fbHvG', 'label': {'type': 'plain_text', 'text': 'Was this information helpful? Help us improve by letting us know', 'emoji': True}, 'optional': False, 'dispatch_action': False, 'element': {'type': 'radio_buttons', 'action_id': 'Interation-ID', 'options': [{'text': {'type': 'mrkdwn', 'text': 'Great! :+1::skin-tone-2:', 'verbatim': False}, 'value': 'Thumbs Up'}, {'text': {'type': 'mrkdwn', 'text': 'Needs improvement! :-1::skin-tone-2:', 'verbatim': False}, 'value': 'Thumbs Down'}]}}], 'channel': 'C0778V1BDPF', 'event_ts': '1720010941.524729', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AW61DZ7U', 'event_time': 1720010941, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDc3OFYxQkRQRiJ9'}
+2024-07-03 18:19:02,457:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1801
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.84.111.209
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010942
+X-Slack-Signature: v0=2f9943d9dd9be65b2fc26932fee9f87a661f23eb21d5dbad6986ead00345ee16
+
+
+2024-07-03 18:19:02,458:INFO:127.0.0.1 - - [03/Jul/2024 18:19:02] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 18:19:07,937:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'WC3TVBHKL', 'type': 'message', 'ts': '1720010946.930219', 'bot_id': 'BC36S1HKJ', 'app_id': 'AC4H5A5SA', 'text': 'Feedback-Message', 'team': 'T0G9AL7B8', 'bot_profile': {'id': 'BC36S1HKJ', 'deleted': False, 'name': 'SearchMate', 'updated': 1701754278, 'app_id': 'AC4H5A5SA', 'icons': {'image_36': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_36.jpg', 'image_48': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_48.jpg', 'image_72': 'https://avatars.slack-edge.com/2023-12-04/6306474337025_1ce226bb7966320d5f47_72.jpg'}, 'team_id': 'T0G9AL7B8'}, 'thread_ts': '1720010551.984629', 'parent_user_id': 'U073BQWDC7N', 'blocks': [{'type': 'input', 'block_id': 'fbHvG', 'label': {'type': 'plain_text', 'text': 'Was this information helpful? Help us improve by letting us know', 'emoji': True}, 'optional': False, 'dispatch_action': False, 'element': {'type': 'radio_buttons', 'action_id': 'Interation-ID', 'options': [{'text': {'type': 'mrkdwn', 'text': 'Great! :+1::skin-tone-2:', 'verbatim': False}, 'value': 'Thumbs Up'}, {'text': {'type': 'mrkdwn', 'text': 'Needs improvement! :-1::skin-tone-2:', 'verbatim': False}, 'value': 'Thumbs Down'}]}}], 'channel': 'C0778V1BDPF', 'event_ts': '1720010946.930219', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07APGV1DHC', 'event_time': 1720010946, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDMDc3OFYxQkRQRiJ9'}
+2024-07-03 18:19:07,937:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1801
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 52.202.75.33
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720010947
+X-Slack-Signature: v0=056289e10557f61fc5bc9330bdbdfda7aef7ad5dcd51c7b74c5a3db49e8b4437
+
+
+2024-07-03 18:19:07,938:INFO:127.0.0.1 - - [03/Jul/2024 18:19:07] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 20:04:29,351:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U0612R92TRN', 'type': 'message', 'ts': '1720016908.339959', 'client_msg_id': 'b699fd46-9f00-45c3-b3eb-24b40b34d8ee', 'text': 'NC Tracker is not super fast.... Usually emails are ready to view in 30-60 seconds. Sometimes it can take more than 5 minutes. And sometimes, for whatever reason, the previews will never show', 'team': 'T0G9AL7B8', 'thread_ts': '1719842289.595699', 'parent_user_id': 'U074G5FS5G9', 'blocks': [{'type': 'rich_text', 'block_id': 'ouUZi', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'NC Tracker is not super fast.... Usually emails are ready to view in 30-60 seconds. Sometimes it can take more than 5 minutes. And sometimes, for whatever reason, the previews will never show'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720016908.339959', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AG87DEQ7', 'event_time': 1720016908, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 20:04:29,353:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1374
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.227.21.199
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720017269
+X-Slack-Retry-Num: 3
+X-Slack-Retry-Reason: http_error
+X-Slack-Signature: v0=aa4c3719e2410436496ea5f8feebe13edb0c70f9b1093652c46887f66ed4c483
+
+
+2024-07-03 20:04:29,353:INFO:127.0.0.1 - - [03/Jul/2024 20:04:29] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 20:04:35,786:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U04GPGJ7QF4', 'type': 'message', 'ts': '1720017274.931969', 'client_msg_id': '2a144c02-92a1-4afc-a25b-02a4c1c6677a', 'text': 'Can you confirm if this is the account number 1380358494571167704', 'team': 'T0G9AL7B8', 'thread_ts': '1720014457.772919', 'parent_user_id': 'W4KT7D16K', 'blocks': [{'type': 'rich_text', 'block_id': 'ctk1g', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Can you confirm if this is the account number 1380358494571167704'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720017274.931969', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AG9KNPFZ', 'event_time': 1720017274, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 20:04:35,787:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1120
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.172.202.74
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720017275
+X-Slack-Signature: v0=94afbfba01a99cdfaa6faa342708fdd458abad989ff85c05ea5eeb88c86bdea1
+
+
+2024-07-03 20:04:35,787:INFO:127.0.0.1 - - [03/Jul/2024 20:04:35] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 20:05:13,359:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'U0612R92TRN', 'type': 'message', 'ts': '1720016940.175189', 'client_msg_id': 'd6c99f21-1ddf-4442-9bdd-f2b0bffedbca', 'text': 'Sounds good <@U03QMA7SAR2> thanks', 'team': 'T0G9AL7B8', 'thread_ts': '1719591528.066939', 'parent_user_id': 'U0612R92TRN', 'blocks': [{'type': 'rich_text', 'block_id': 'sG/Nv', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Sounds good '}, {'type': 'user', 'user_id': 'U03QMA7SAR2'}, {'type': 'text', 'text': ' thanks'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720016940.175189', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AZ9ESP44', 'event_time': 1720016940, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 20:05:13,361:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1111
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.145.145.127
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720017313
+X-Slack-Retry-Num: 3
+X-Slack-Retry-Reason: http_error
+X-Slack-Signature: v0=3fe76109bc294ec555b38342dd9492d07f8a56bee0c831f85ac0bf27b516a611
+
+
+2024-07-03 20:05:13,361:INFO:127.0.0.1 - - [03/Jul/2024 20:05:13] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 20:07:50,188:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'W4KT7D16K', 'type': 'message', 'ts': '1720017469.412079', 'client_msg_id': '97C29C4A-4E57-4995-B43B-41E1B0FA880F', 'text': 'Correct ', 'team': 'T0G9AL7B8', 'thread_ts': '1720014457.772919', 'parent_user_id': 'W4KT7D16K', 'blocks': [{'type': 'rich_text', 'block_id': '0koiN', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Correct '}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720017469.412079', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07AGA6EE4F', 'event_time': 1720017469, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 20:07:50,189:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 1004
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.165.222.78
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720017469
+X-Slack-Signature: v0=6bb4a3b07916230ca267c8426798c4d1a03f3c7f55c1f34f358ca449ea5ce11a
+
+
+2024-07-03 20:07:50,190:INFO:127.0.0.1 - - [03/Jul/2024 20:07:50] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 23:12:03,848:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'user': 'WJLQTT401', 'type': 'message', 'ts': '1720028523.024979', 'text': 'Hi team! We need to identify the triggering component(s) for the templates below. What is the best to do so?', 'team': 'T0G9AL7B8', 'attachments': [{'ts': '1719951241.942979', 'author_id': 'U01EQ5CN945', 'channel_id': 'CM0S62VG8', 'channel_team': 'T0G9AL7B8', 'is_msg_unfurl': True, 'is_reply_unfurl': True, 'message_blocks': [{'team': 'T0G9AL7B8', 'channel': 'CM0S62VG8', 'ts': '1719951241.942979', 'message': {'blocks': [{'type': 'rich_text', 'block_id': 'V9Ysm', 'elements': [{'type': 'rich_text_preformatted', 'elements': [{'type': 'text', 'text': 'Template ID Latest Template ID. \nPPX000147 \tRT000542                \nPPX001524\tRT000603\nPPX001578\tRT000727\nPPC000372\tRT000270\nPPX001525\tRT000078\nPPC000047\tRT000286\nPPC000422\tRT000469\nPPX001521\tRT000110\nPPX001660\tRT000203\nPPX001499\tRT000023\nPPX001518\tRT001185\nPPX001553\tRT000131\nPPX001493\tRT000101'}], 'border': 0}]}]}}], 'color': 'D0D0D0', 'from_url': 'https://paypal.slack.com/archives/CM0S62VG8/p1719951241942979?thread_ts=1719951080.313309&cid=CM0S62VG8', 'is_share': True, 'fallback': '[July 2nd, 2024 1:14 PM] mahigupta: ```Template ID Latest Template ID. \nPPX000147 \tRT000542                \nPPX001524\tRT000603\nPPX001578\tRT000727\nPPC000372\tRT000270\nPPX001525\tRT000078\nPPC000047\tRT000286\nPPC000422\tRT000469\nPPX001521\tRT000110\nPPX001660\tRT000203\nPPX001499\tRT000023\nPPX001518\tRT001185\nPPX001553\tRT000131\nPPX001493\tRT000101```', 'text': '```Template ID Latest Template ID. \nPPX000147 \tRT000542                \nPPX001524\tRT000603\nPPX001578\tRT000727\nPPC000372\tRT000270\nPPX001525\tRT000078\nPPC000047\tRT000286\nPPC000422\tRT000469\nPPX001521\tRT000110\nPPX001660\tRT000203\nPPX001499\tRT000023\nPPX001518\tRT001185\nPPX001553\tRT000131\nPPX001493\tRT000101```', 'author_name': 'Mahima Gupta', 'author_link': 'https://paypal.slack.com/team/U01EQ5CN945', 'author_icon': 'https://avatars.slack-edge.com/2021-11-12/2706787744103_bb243a0223e1f58a18e8_48.jpg', 'author_subname': 'Mahima Gupta', 'mrkdwn_in': ['text'], 'footer': 'Thread in Slack Conversation'}], 'blocks': [{'type': 'rich_text', 'block_id': '4qQFn', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Hi team! We need to identify the triggering component(s) for the templates below. What is the best to do so?'}]}]}], 'channel': 'C7BA7AGV8', 'event_ts': '1720028523.024979', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07ARC2CAH4', 'event_time': 1720028523, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 23:12:03,850:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 2981
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 54.145.145.127
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720028523
+X-Slack-Signature: v0=e9c28fa9004aed6ffd4ae1ed9da12874b5fa0ad13e6cfe6d72673bc41d46f73e
+
+
+2024-07-03 23:12:03,851:INFO:127.0.0.1 - - [03/Jul/2024 23:12:03] "POST /log_data HTTP/1.1" 200 -
+2024-07-03 23:12:14,621:INFO:Data received: {'token': 'CyPt9PWnoJPlCdt5yk74Jogg', 'team_id': 'T0G9AL7B8', 'enterprise_id': 'E3T9KQULR', 'context_team_id': 'T0G9AL7B8', 'context_enterprise_id': 'E3T9KQULR', 'api_app_id': 'AC4H5A5SA', 'event': {'type': 'message', 'subtype': 'message_changed', 'message': {'user': 'WJLQTT401', 'type': 'message', 'edited': {'user': 'WJLQTT401', 'ts': '1720028533.000000'}, 'text': 'Hi team! We need to identify the triggering component(s) for the templates below. What is the best to do so? CC: <@U01EQ5CN945>', 'team': 'T0G9AL7B8', 'attachments': [{'ts': '1719951241.942979', 'author_id': 'U01EQ5CN945', 'channel_id': 'CM0S62VG8', 'channel_team': 'T0G9AL7B8', 'is_msg_unfurl': True, 'is_reply_unfurl': True, 'message_blocks': [{'team': 'T0G9AL7B8', 'channel': 'CM0S62VG8', 'ts': '1719951241.942979', 'message': {'blocks': [{'type': 'rich_text', 'block_id': 'V9Ysm', 'elements': [{'type': 'rich_text_preformatted', 'elements': [{'type': 'text', 'text': 'Template ID Latest Template ID. \nPPX000147 \tRT000542                \nPPX001524\tRT000603\nPPX001578\tRT000727\nPPC000372\tRT000270\nPPX001525\tRT000078\nPPC000047\tRT000286\nPPC000422\tRT000469\nPPX001521\tRT000110\nPPX001660\tRT000203\nPPX001499\tRT000023\nPPX001518\tRT001185\nPPX001553\tRT000131\nPPX001493\tRT000101'}], 'border': 0}]}]}}], 'color': 'D0D0D0', 'from_url': 'https://paypal.slack.com/archives/CM0S62VG8/p1719951241942979?thread_ts=1719951080.313309&cid=CM0S62VG8', 'is_share': True, 'fallback': '[July 2nd, 2024 1:14 PM] mahigupta: ```Template ID Latest Template ID. \nPPX000147 \tRT000542                \nPPX001524\tRT000603\nPPX001578\tRT000727\nPPC000372\tRT000270\nPPX001525\tRT000078\nPPC000047\tRT000286\nPPC000422\tRT000469\nPPX001521\tRT000110\nPPX001660\tRT000203\nPPX001499\tRT000023\nPPX001518\tRT001185\nPPX001553\tRT000131\nPPX001493\tRT000101```', 'text': '```Template ID Latest Template ID. \nPPX000147 \tRT000542                \nPPX001524\tRT000603\nPPX001578\tRT000727\nPPC000372\tRT000270\nPPX001525\tRT000078\nPPC000047\tRT000286\nPPC000422\tRT000469\nPPX001521\tRT000110\nPPX001660\tRT000203\nPPX001499\tRT000023\nPPX001518\tRT001185\nPPX001553\tRT000131\nPPX001493\tRT000101```', 'author_name': 'Mahima Gupta', 'author_link': 'https://paypal.slack.com/team/U01EQ5CN945', 'author_icon': 'https://avatars.slack-edge.com/2021-11-12/2706787744103_bb243a0223e1f58a18e8_48.jpg', 'author_subname': 'Mahima Gupta', 'mrkdwn_in': ['text'], 'footer': 'Thread in Slack Conversation'}], 'blocks': [{'type': 'rich_text', 'block_id': 'pZtYg', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Hi team! We need to identify the triggering component(s) for the templates below. What is the best to do so? CC: '}, {'type': 'user', 'user_id': 'U01EQ5CN945'}]}]}], 'ts': '1720028523.024979', 'source_team': 'E3T9KQULR', 'user_team': 'E3T9KQULR'}, 'previous_message': {'user': 'WJLQTT401', 'type': 'message', 'ts': '1720028523.024979', 'text': 'Hi team! We need to identify the triggering component(s) for the templates below. What is the best to do so?', 'team': 'T0G9AL7B8', 'user_team': 'T0G9AL7B8', 'source_team': 'T0G9AL7B8', 'attachments': [{'ts': '1719951241.942979', 'author_id': 'U01EQ5CN945', 'channel_id': 'CM0S62VG8', 'channel_team': 'T0G9AL7B8', 'is_msg_unfurl': True, 'is_reply_unfurl': True, 'message_blocks': [{'team': 'T0G9AL7B8', 'channel': 'CM0S62VG8', 'ts': '1719951241.942979', 'message': {'blocks': [{'type': 'rich_text', 'block_id': 'V9Ysm', 'elements': [{'type': 'rich_text_preformatted', 'elements': [{'type': 'text', 'text': 'Template ID Latest Template ID. \nPPX000147 \tRT000542                \nPPX001524\tRT000603\nPPX001578\tRT000727\nPPC000372\tRT000270\nPPX001525\tRT000078\nPPC000047\tRT000286\nPPC000422\tRT000469\nPPX001521\tRT000110\nPPX001660\tRT000203\nPPX001499\tRT000023\nPPX001518\tRT001185\nPPX001553\tRT000131\nPPX001493\tRT000101'}], 'border': 0}]}]}}], 'color': 'D0D0D0', 'from_url': 'https://paypal.slack.com/archives/CM0S62VG8/p1719951241942979?thread_ts=1719951080.313309&cid=CM0S62VG8', 'is_share': True, 'fallback': '[July 2nd, 2024 1:14 PM] mahigupta: ```Template ID Latest Template ID. \nPPX000147 \tRT000542                \nPPX001524\tRT000603\nPPX001578\tRT000727\nPPC000372\tRT000270\nPPX001525\tRT000078\nPPC000047\tRT000286\nPPC000422\tRT000469\nPPX001521\tRT000110\nPPX001660\tRT000203\nPPX001499\tRT000023\nPPX001518\tRT001185\nPPX001553\tRT000131\nPPX001493\tRT000101```', 'text': '```Template ID Latest Template ID. \nPPX000147 \tRT000542                \nPPX001524\tRT000603\nPPX001578\tRT000727\nPPC000372\tRT000270\nPPX001525\tRT000078\nPPC000047\tRT000286\nPPC000422\tRT000469\nPPX001521\tRT000110\nPPX001660\tRT000203\nPPX001499\tRT000023\nPPX001518\tRT001185\nPPX001553\tRT000131\nPPX001493\tRT000101```', 'author_name': 'Mahima Gupta', 'author_link': 'https://paypal.slack.com/team/U01EQ5CN945', 'author_icon': 'https://avatars.slack-edge.com/2021-11-12/2706787744103_bb243a0223e1f58a18e8_48.jpg', 'author_subname': 'Mahima Gupta', 'mrkdwn_in': ['text'], 'footer': 'Thread in Slack Conversation'}], 'blocks': [{'type': 'rich_text', 'block_id': '4qQFn', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Hi team! We need to identify the triggering component(s) for the templates below. What is the best to do so?'}]}]}]}, 'channel': 'C7BA7AGV8', 'hidden': True, 'ts': '1720028533.190500', 'event_ts': '1720028533.190500', 'channel_type': 'channel'}, 'type': 'event_callback', 'event_id': 'Ev07BALW0C9X', 'event_time': 1720028533, 'authed_users': ['WC3TVBHKL'], 'authorizations': [{'enterprise_id': 'E3T9KQULR', 'team_id': 'T0G9AL7B8', 'user_id': 'WC3TVBHKL', 'is_bot': True, 'is_enterprise_install': False}], 'is_ext_shared_channel': False, 'event_context': '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMEc5QUw3QjgiLCJhaWQiOiJBQzRINUE1U0EiLCJjaWQiOiJDN0JBN0FHVjgifQ'}
+2024-07-03 23:12:14,622:INFO:Headers received: Host: 20db-122-174-136-32.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 5648
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 44.200.206.180
+X-Forwarded-Host: 20db-122-174-136-32.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1720028534
+X-Slack-Signature: v0=97f7297332bfb8a4acd079db5d0e4277f62d40f3d25ca6f3b5374ab552774f09
+
+
+2024-07-03 23:12:14,623:INFO:127.0.0.1 - - [03/Jul/2024 23:12:14] "POST /log_data HTTP/1.1" 200 -
+2024-08-16 12:35:25,875:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-16 12:35:25,876:INFO:[33mPress CTRL+C to quit[0m
+2024-08-16 12:35:25,899:INFO: * Restarting with stat
+2024-08-16 12:35:25,994:WARNING: * Debugger is active!
+2024-08-16 12:35:26,005:INFO: * Debugger PIN: 853-712-390
+2024-08-16 12:35:57,718:INFO:127.0.0.1 - - [16/Aug/2024 12:35:57] "[33mGET / HTTP/1.1[0m" 404 -
+2024-08-16 12:36:19,811:INFO:127.0.0.1 - - [16/Aug/2024 12:36:19] "[33mGET / HTTP/1.1[0m" 404 -
+2024-08-16 12:36:20,416:INFO:127.0.0.1 - - [16/Aug/2024 12:36:20] "[33mGET / HTTP/1.1[0m" 404 -
+2024-08-16 12:36:25,584:INFO:127.0.0.1 - - [16/Aug/2024 12:36:25] "[33mGET /log HTTP/1.1[0m" 404 -
+2024-08-16 12:36:27,582:INFO:127.0.0.1 - - [16/Aug/2024 12:36:27] "[31m[1mGET /log_data HTTP/1.1[0m" 405 -
+2024-08-16 12:36:32,348:INFO:Data received: {'token': 'uSDo9P5r76PyE76RQt2tp2T3', 'challenge': 'aJXqWZmQMXakLSPvyrVUaKPbCyR7W2RvBxjJXHIAftAlSt3cScYU', 'type': 'url_verification'}
+2024-08-16 12:36:32,350:INFO:Headers received: Host: 5f4a-2401-4900-1cb2-43af-7c4c-7231-de8-258b.ngrok-free.app
+User-Agent: Slackbot 1.0 (+https://api.slack.com/robots)
+Content-Length: 129
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+X-Forwarded-For: 3.235.50.234
+X-Forwarded-Host: 5f4a-2401-4900-1cb2-43af-7c4c-7231-de8-258b.ngrok-free.app
+X-Forwarded-Proto: https
+X-Slack-Request-Timestamp: 1723791991
+X-Slack-Signature: v0=b53758ac90c9d69ff011e0d38b6a90a9a1957c07ffce2d30050f864e6dcfd839
+
+
+2024-08-16 12:36:32,350:INFO:127.0.0.1 - - [16/Aug/2024 12:36:32] "POST /log_data HTTP/1.1" 200 -
+2024-09-04 22:51:14,971:INFO: * Detected change in '/Users/abcom/Documents/joyride/exp/askmeanythingbot/OrderParser.py', reloading
+2024-09-04 22:51:15,052:INFO: * Restarting with stat
+2024-09-04 22:51:15,622:WARNING: * Debugger is active!
+2024-09-04 22:51:15,632:INFO: * Debugger PIN: 853-712-390
